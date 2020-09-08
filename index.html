@@ -2,32 +2,113 @@
 <html lange="en">
     <head> 
         <meta charset="UTF-8">
-        <title>weatherassess home</title>
+        <title>web challenge home</title>
+       
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        
     </head>
 
     <body>
-        <h3>Welcome to weatherassess</h3>
 
-        <hr>
+     
 
-        <br>
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
 
-        <hr>
+             <div class="row"></div>
+                <div class="col-md-12">
+                 <h1 class="display-4">Welcome to my Web-Design Challenge!</h1>
+                <p class="lead">This website is an assignment for the Upenn-Trilogy collaborative Data Bootcamp.</p>
+             </div>
+            </div>
+    
 
-        <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste quos beatae ad assumenda fugit et repellendus laudantium! Fugit facilis rerum atque eaque, placeat magnam quae voluptates libero esse nemo iusto?</p>
         
-        
-        <section>
-            <ul>
-                <li><a href="https://abigailrgreene.github.io/Web-Design-Challenge/lattemp.html" target="blank">City Latitude vs. Max Temperature<img src="https://abigailrgreene.github.io/Web-Design-Challenge/WebVisualizations/Assets/Fig1.png"></a><br></li>
-                <li><a href="https://abigailrgreene.github.io/Web-Design-Challenge/lathumid.html" target="blank">City Latitude vs. Humidity<img src="https://abigailrgreene.github.io/Web-Design-Challenge/WebVisualizations/Assets/Fig2.png"></a><br></li>
-                <li><a href="https://abigailrgreene.github.io/Web-Design-Challenge/latcloud.html" target="blank">City Latitude vs. Cloudiness<img src="https://abigailrgreene.github.io/Web-Design-Challenge/WebVisualizations/Assets/Fig3.png"></a><br></li>
-                <li><a href="https://abigailrgreene.github.io/Web-Design-Challenge/latwind.html" target="blank">City Latitude vs. Windspeed<img src="https://abigailrgreene.github.io/Web-Design-Challenge/WebVisualizations/Assets/Fig4.png"></a><br></li>
-                <li><a href="https://abigailrgreene.github.io/Web-Design-Challenge/comp.html" target="blank">Comparisons</a><br>
-                <li><a href="https://abigailrgreene.github.io/Web-Design-Challenge/data.html" target="blank">Data</a><br>
-            </ul>
-        </section>
-       
+           <section>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-warning">
+                <a class="navbar-brand" href="https://abigailrgreene.github.io/Web-Design-Challenge/index.html">Home</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="https://abigailrgreene.github.io/Web-Design-Challenge/comp.html">Comparisons</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://abigailrgreene.github.io/Web-Design-Challenge/data.html">Data</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Visualizations
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="https://abigailrgreene.github.io/Web-Design-Challenge/lattemp.html">City Latitude vs. Max Temperature</a>
+                        <a class="dropdown-item" href="https://abigailrgreene.github.io/Web-Design-Challenge/lathumid.html">City Latitude vs. Humidity</a>
+                        <a class="dropdown-item" href="https://abigailrgreene.github.io/Web-Design-Challenge/latcloud.html">City Latitude vs. Cloudiness</a>
+                        <a class="dropdown-item" href="https://abigailrgreene.github.io/Web-Design-Challenge/latwind.html">City Latitude vs. Windspeed</a>
+                      </div>
+                    </li>
+    
+                  </ul>
+                  <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                  </form>
+                </div>
+              </nav>
+          
+          </section>
+          <p>  Above you have a navigation bar directing you towards your data comparisons, your data table, and your individualized visualization pages.</p>
+          <br>
+          <br>
 
+          <p>Below you also have a few shortcuts linked directly to the visualization pages, with a sneak peak at the visualizations!</p>
+          
+          <section>
+            <ul class="list-unstyled">
+                <li class="media">
+                  <img src="https://abigailrgreene.github.io/Web-Design-Challenge/WebVisualizations/Assets/Fig1.png" class="mr-3"  alt="...">
+                  <div class="media-body">
+                    <h5 class="mt-0 mb-1">City Latitude v. Max Temperature</h5>
+                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                  </div>
+                </li>
+                <li class="media my-4">
+                  <img src="https://abigailrgreene.github.io/Web-Design-Challenge/WebVisualizations/Assets/Fig2.png" class="mr-3" alt="...">
+                  <div class="media-body">
+                    <h5 class="mt-0 mb-1">City Latitude v. Humidity</h5>
+                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                  </div>
+                </li>
+                <li class="media">
+                  <img src="https://abigailrgreene.github.io/Web-Design-Challenge/WebVisualizations/Assets/Fig3.png" class="mr-3" alt="...">
+                  <div class="media-body">
+                    <h5 class="mt-0 mb-1">City Latitude v. Cloudiness</h5>
+                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                  </div>
+                </li>
+                <li class="media">
+                    <img src="https://abigailrgreene.github.io/Web-Design-Challenge/WebVisualizations/Assets/Fig4.png" class="mr-3" alt="...">
+                    <div class="media-body">
+                      <h5 class="mt-0 mb-1">City Latitude v. Windspeed</h5>
+                      Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                    </div>
+                  </li>
+              </ul>
+
+          </section>
+
+
+        
+
+
+        </div>
+        
+     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>  
     </body>
 </html>
